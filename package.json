@@ -2,12 +2,13 @@
   "name": "atom-dream-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "Atom syntax theme that simulates coloring scheme of Dreamweaver",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "php"
   ],
-  "repository": "https://github.com/atom/atom-dream-syntax",
+  "repository": "https://github.com/cithukyaw/atom-dream-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
