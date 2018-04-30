@@ -66,8 +66,10 @@ atom-text-editor {
   .syntax--meta,
   .syntax--support.syntax--class,
   .syntax--storage,
-  .syntax--todo {
+  .syntax--todo,
+  .syntax--invalid.syntax--illegal {
     color: @orange;
+    background-color: @background;
   }
 }
 
@@ -224,14 +226,16 @@ atom-text-editor {
       color: @green;
     }
 
+    &.syntax--var,
     &.syntax--funchand,
     &.syntax--string,
     &.syntax--array,
     &.syntax--url,
     &.syntax--file,
     &.syntax--construct,
-    &.syntax--php_pcre,
-    &.syntax--var {
+    &.syntax--network,
+    &.syntax--xml,
+    &.syntax--php_pcre {
       color: @green;
     }
   }
