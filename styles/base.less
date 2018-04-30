@@ -352,10 +352,20 @@ atom-text-editor {
 }
 
 .syntax--html {
-    .syntax--tag,
-    .syntax--attribute-name {
-        color: @dark-blue !important;
+  .syntax--entity.syntax--name.syntax--tag {
+    color: @blue;
+  }
+
+  .syntax--entity.syntax--other.syntax--attribute-name {
+    color: @dark-blue;
+  }
+
+  .syntax--script {
+    .syntax--entity.syntax--name.syntax--tag,
+    .syntax--entity.syntax--other.syntax--attribute-name {
+      color: @brown;
     }
+  }
 }
 
 .syntax--js {
